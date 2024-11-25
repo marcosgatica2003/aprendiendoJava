@@ -72,10 +72,6 @@ class dividir {
     }
 
     public static Boolean comprobar(float divisor) {
-        if (divisor == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (divisor == 0) ? true : false;
     }
 }
